@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "node ./script.js",
+    "dev": "cd proyecto && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "localDependencies": [
+    "modulo-1",
+    "modulo-2"
+  ],
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
